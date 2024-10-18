@@ -35,7 +35,7 @@ export default async function GroupParticipants(sock, { id, participants, action
                }
             })
          }
-   } try (e) {
+   } try e {
       throw e
    }
 }
